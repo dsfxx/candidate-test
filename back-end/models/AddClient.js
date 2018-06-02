@@ -1,16 +1,18 @@
+// AdUnit.js
+
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Define collection and schema for AdUnits
 let AddClient = new Schema({
-  unit_name: {
+  client_name: {
     type: String
   },
-  unit_price: {
-    type: Number
+  client_detail: {
+    type: String
   }
 },{
-    collection: 'addclients'
+    collection: 'addclient'
 });
 
 module.exports = mongoose.model('AddClient', AddClient);

@@ -1,15 +1,39 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { FormGroup,  FormBuilder,  Validators } from '@angular/forms';
+import { AddClient } from '../index/AddClient';
+import { AddClientService } from '../../addclient.service';
 
 @Component({
-  selector: 'app-client-edit',
+  selector: 'app-edit',
   templateUrl: './client-edit.component.html',
   styleUrls: ['./client-edit.component.css']
 })
+
 export class ClientEditComponent implements OnInit {
 
-  constructor() { }
+  addclient: any = {};
+  angForm: FormGroup;
 
-  ngOnInit() {
+  constructor(private route: ActivatedRoute,
+    private router: Router,
+    private addclientservice: AddClientService,
+    private fb: FormBuilder) {
+      this.createForm();
+    }
+    createForm() {
+      this.angForm = this.fb.group({
+             client_name: ['', Validators.required ],
+              client_detail: ['', Validators.required ]
+         });
+      }
+
+    ngOnInit() {
+      this.route.params.subscribe(params => {
+        this.addclientservice.editAddClient(params['id']).subscribe(res => {
+          this.addclient = res;
+      });
+    });
   }
-
 }
+

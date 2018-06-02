@@ -2,7 +2,7 @@
   "name": "back-end",
   "scripts": {
     "test": "test",
-    "start": "node server.js"
+    "serve": "node server.js"
   },
   "version": "1.0.0",
   "description": "node back-end",
