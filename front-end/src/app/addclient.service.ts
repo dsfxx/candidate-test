@@ -31,4 +31,22 @@ export class AddClientService {
               .get(`${this.uri}/edit/${id}`);
     }
 
+  updateAddClient(client_name, client_detail, id) {
+    const obj = {
+      client_name: client_name,
+      client_detail: client_detail
+    };
+    this
+      .http
+      .post(`${this.uri}/update/${id}`, obj)
+      .subscribe(res => console.log('Done'));
+  }
+
+  deleteAddClient(id) {
+      return this
+                .http
+                .get(`${this.uri}/delete/${id}`);
+  }
+
+
 }

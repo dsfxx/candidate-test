@@ -28,6 +28,13 @@ export class ClientEditComponent implements OnInit {
          });
       }
 
+      updateAddClient(client_name, client_detail) {
+         this.route.params.subscribe(params => {
+            this.addclientservice.updateAddClient(client_name, client_detail, params['id']);
+            this.router.navigate(['index']);
+         });
+      }
+
     ngOnInit() {
       this.route.params.subscribe(params => {
         this.addclientservice.editAddClient(params['id']).subscribe(res => {

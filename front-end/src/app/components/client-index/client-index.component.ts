@@ -14,6 +14,13 @@ export class ClientIndexComponent implements OnInit {
 
   constructor(private addclientservice: AddClientService) { }
 
+
+  deleteAddClient(id) {
+      this.addclientservice.deleteAddClient(id).subscribe(res => {
+        console.log('Deleted');
+      });
+  }
+
   ngOnInit() {
     this.addclientservice
       .getAddClients()

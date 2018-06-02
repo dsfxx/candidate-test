@@ -11,8 +11,8 @@
   <tr *ngFor="let addclient of addclients">
     <td>{{ addclient.client_name }}</td>
     <td>{{ addclient.client_detail }}</td>
-    <td><a [routerLink]="['/edit', addclient._id]" class="btn btn-primary">Edit</a></td>
-    <td><a [routerLink]="" class="btn btn-danger">Delete</a></td>
+    <td><a [routerLink]="['/client-edit', addclient._id]" class="btn btn-primary">Edit</a></td>
+    <td><button (click)="deleteAddClient(addclient._id)"  class="btn btn-danger">Delete</button></td>
   </tr>
   </tbody>
 </table>
