@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { ClientCreateComponent } from './components/client-create/client-create.component';
@@ -36,7 +37,8 @@ const routes: Routes = [
     BrowserModule,
     RouterModule.forRoot(routes),
     SlimLoadingBarModule,
-    HttpClientModule
+    HttpClientModule,
+    ReactiveFormsModule
   ],
   providers: [AddClientService],
   bootstrap: [AppComponent]
