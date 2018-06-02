@@ -1,11 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ClientCreateComponent } from './components/client-create/client-create.component';
 import { ClientIndexComponent } from './components/client-index/client-index.component';
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
+import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
+import { AddClientService } from './addclient.service';
 
 const routes: Routes = [
   {
@@ -31,9 +34,11 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    SlimLoadingBarModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [AddClientService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
