@@ -1,8 +1,8 @@
 <div class="card">
   <div class="card-body">
-    <form [formGroup]="angForm" novalidate>
+    <form [formGroup]="angForm" #myForm="ngForm" novalidate>
       <div class="form-group">
-        <label class="col-md-4">Client Name</label>
+        <label class="col-sm-4">Client Name</label>
         <input type="text" class="form-control" name="client_name" formControlName="client_name" #client_name/>
       </div>
       <div *ngIf="angForm.controls['client_name'].invalid && (angForm.controls['client_name'].dirty || angForm.controls['client_name'].touched)" class="alert alert-danger">
@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="col-md-4">Client Details</label>
+        <label class="col-sm-4">Client Details</label>
         <input type="text" class="form-control" name="client_detail" formControlName="client_detail" #client_detail/>
       </div>
       <div *ngIf="angForm.controls['client_detail'].invalid && (angForm.controls['client_detail'].dirty || angForm.controls['client_detail'].touched)" class="alert alert-danger">
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="form-group">
-        <button (click)="addClient(client_name.value, client_detail.value)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Create Unit</button>
+        <button (click)="addClient(client_name.value, client_detail.value, myForm)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Create Unit</button>
       </div>
     </form>
   </div>

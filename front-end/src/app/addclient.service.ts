@@ -17,7 +17,7 @@ export class AddClientService {
     };
     this.http.post(`${this.uri}/add`, obj)
         .subscribe(res => console.log('Done'));
-  }
+        }
 
   getAddClients() {
       return this

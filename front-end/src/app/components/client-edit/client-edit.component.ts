@@ -12,7 +12,7 @@ import { AddClientService } from '../../addclient.service';
 
 export class ClientEditComponent implements OnInit {
 
-  addclient: any = {};
+
   angForm: FormGroup;
 
   constructor(private route: ActivatedRoute,
@@ -31,9 +31,11 @@ export class ClientEditComponent implements OnInit {
       updateAddClient(client_name, client_detail) {
          this.route.params.subscribe(params => {
             this.addclientservice.updateAddClient(client_name, client_detail, params['id']);
-            this.router.navigate(['index']);
+            this.router.navigate(['client-index']);
          });
       }
+
+
 
     ngOnInit() {
       this.route.params.subscribe(params => {
