@@ -29,7 +29,7 @@ const routes: Routes = [
     component: ClientIndexComponent
   },
   {
-    path: 'employee-index',
+    path: 'employee-index/:id',
     component: EmployeeIndexComponent
   },
   {

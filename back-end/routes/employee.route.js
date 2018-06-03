@@ -30,4 +30,14 @@ EmployeeRoutes.route('/getAllEmployee').get(function (req, res) {
 });
 
 
+// Defined get all employees by company ID
+EmployeeRoutes.route('/getCompanyEmployee/:id').get(function (req, res) {
+  let id = req.params.id;
+  var query = { employee_company : id}
+  EmployeeModel.find(query, function (err, result){
+      res.json(result);
+  });
+});
+
+
 module.exports = EmployeeRoutes;

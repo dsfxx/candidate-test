@@ -1,3 +1,20 @@
-<p>
-  employee-index works!
-</p>
+<table class="table table-hover">
+  <thead>
+  <tr>
+    <td>First Name</td>
+    <td>Last Name</td>
+    <td>Phone</td>
+    <td colspan="2">Actions</td>
+  </tr>
+  </thead>
+
+  <tbody>
+  <tr *ngFor="let coemployee of listemployee">
+    <td>{{ coemployee.employee_fname }}</td>
+    <td>{{ coemployee.employee_lname }}</td>
+    <td>{{ coemployee.employee_phone }}</td>
+    <td><a [routerLink]="['/client-edit', coemployee._id]" class="btn btn-primary">Edit</a></td>
+    <td><button (click)="deleteAddClient(coemployee._id, i)"  class="btn btn-danger">Delete</button></td>
+  </tr>
+  </tbody>
+</table>

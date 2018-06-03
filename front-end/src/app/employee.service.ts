@@ -18,11 +18,13 @@ export class EmployeeService {
         employee_company: employee_company
       };
 
-
-      console.log(employee_fname);
-      console.log(employee_company);
-
       this.http.post(`${this.uri}/employeeadd`, obj)
           .subscribe(res => console.log('Done'));
-          }
+  }
+
+  getCompanyEmployee(id) {
+        return this
+               .http
+               .get(`${this.uri}/getCompanyEmployee/${id}`);
+        }
 }
