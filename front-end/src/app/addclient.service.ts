@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class AddClientService {
 
-  uri = 'http://localhost:4000/test';
+  uri = 'http://localhost:4000/DC';
 
   constructor(private http: HttpClient) { }
 
@@ -15,7 +15,7 @@ export class AddClientService {
       client_name: client_name,
       client_detail: client_detail
     };
-    this.http.post(`${this.uri}/add`, obj)
+    this.http.post(`${this.uri}/clientadd`, obj)
         .subscribe(res => console.log('Done'));
         }
 
@@ -28,7 +28,7 @@ export class AddClientService {
   editAddClient(id) {
     return this
               .http
-              .get(`${this.uri}/edit/${id}`);
+              .get(`${this.uri}/clientedit/${id}`);
     }
 
   updateAddClient(client_name, client_detail, id) {
@@ -38,14 +38,14 @@ export class AddClientService {
     };
     this
       .http
-      .post(`${this.uri}/update/${id}`, obj)
+      .post(`${this.uri}/clientupdate/${id}`, obj)
       .subscribe(res => console.log('Done'));
   }
 
   deleteAddClient(id) {
       return this
                 .http
-                .get(`${this.uri}/delete/${id}`);
+                .get(`${this.uri}/clientdelete/${id}`);
   }
 
 

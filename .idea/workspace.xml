@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868eeb5f-211d-4032-a915-eb14f4ab1d94" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/back-end/models/EmployeeModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/routes/client.route.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/back-end/routes/employee.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/config/DB.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/config/DB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/models/AddClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/models/ClientModel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/routes/addclient.route.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/back-end/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/_mdb_catalog.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/collection-2-630324354649629466.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-2-630324354649629466.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/collection-4-630324354649629466.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-4-630324354649629466.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index-3-630324354649629466.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-3-630324354649629466.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index-5-630324354649629466.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-5-630324354649629466.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000005" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/angular.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,29 +34,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="client-index.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client-index.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="client-index.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
-              <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client-edit.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts">
+      <file leaf-file-name="addclient.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/addclient.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client-create.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client-create.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -63,6 +78,8 @@
       <find>adunit</find>
       <find>addClient.s</find>
       <find>md</find>
+      <find>config</find>
+      <find>add</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -78,21 +95,22 @@
         <option value="$PROJECT_DIR$/back-end/package.json" />
         <option value="$PROJECT_DIR$/back-end/models/AdUnit.js" />
         <option value="$PROJECT_DIR$/back-end/routes/adunit.route.js" />
-        <option value="$PROJECT_DIR$/back-end/server.js" />
-        <option value="$PROJECT_DIR$/back-end/routes/addclient.route.js" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/addclient.ts" />
-        <option value="$PROJECT_DIR$/back-end/models/AddClient.js" />
-        <option value="$PROJECT_DIR$/back-end/config/DB.js" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html" />
-        <option value="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/index.html" />
         <option value="$PROJECT_DIR$/front-end/angular.json" />
         <option value="$PROJECT_DIR$/front-end/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" />
+        <option value="$PROJECT_DIR$/back-end/models/AddClient.js" />
+        <option value="$PROJECT_DIR$/back-end/routes/addclient.route.js" />
+        <option value="$PROJECT_DIR$/back-end/server.js" />
+        <option value="$PROJECT_DIR$/back-end/config/DB.js" />
+        <option value="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" />
+        <option value="$PROJECT_DIR$/back-end/routes/client.route.js" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" />
       </list>
     </option>
@@ -106,6 +124,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -131,17 +151,56 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="client-create" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="client-edit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="client-index" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\candidate-test\back-end\models" />
+      <recent name="C:\xampp\htdocs\candidate-test\back-end\routes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -240,6 +299,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/addclient.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -261,14 +341,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/models/AddClient.js">
+    <entry file="file://$PROJECT_DIR$/back-end/models/ClientModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/routes/addclient.route.js">
+    <entry file="file://$PROJECT_DIR$/back-end/routes/client.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" selection-start-line="18" selection-end-line="18" />
@@ -296,7 +376,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/routes/addclient.route.js">
+    <entry file="file://$PROJECT_DIR$/back-end/routes/client.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
@@ -325,9 +405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ng6crud/angular.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../ng6crud/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -349,31 +426,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/config/DB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/addclient.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/routes/addclient.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -391,50 +447,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="34" lean-forward="true" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/addclient.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="23" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/models/AddClient.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="30" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -471,10 +489,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/routes/client.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Qsync/candidate-test/back-end/routes/addclient.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="46" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/models/ClientModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/config/DB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Qsync/candidate-test/front-end/src/app/components/client-index/client-index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="17" selection-end-line="26" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
-          <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/addclient.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormGroup,  FormBuilder,  Validators } from '@angular/forms';
-import { AddClient } from '../index/AddClient';
+import { AddClient } from '../client-index/addclient';
 import { AddClientService } from '../../addclient.service';
 
 @Component({
@@ -12,7 +12,7 @@ import { AddClientService } from '../../addclient.service';
 
 export class ClientEditComponent implements OnInit {
 
-
+  addclient: any = {};
   angForm: FormGroup;
 
   constructor(private route: ActivatedRoute,

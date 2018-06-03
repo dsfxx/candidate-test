@@ -10,21 +10,19 @@ import { AddClientService } from '../../addclient.service';
 
 export class ClientIndexComponent implements OnInit {
 
-  addclients: AddClients[];
+  addclients: AddClient[];
 
   constructor(private addclientservice: AddClientService) { }
 
 
 
   deleteAddClient(id, index) {
+         this.addclientservice.deleteAddClient(id).subscribe(res => {
+           console.log('Deleted')
+           this.addclients.splice(index, 1)
+         });
+     }
 
-      this.addclientservice.deleteAddClient(id).subscribe(res => {
-        console.log('Deleted')
-        console.log(id)
-        this.addclients.splice(index, 1);
-
-    }
-  }
 
 
   ngOnInit() {
@@ -35,8 +33,5 @@ export class ClientIndexComponent implements OnInit {
     });
   }
 
-  ngOnDestroy() {
-  if (this.mySubscription)
-   this.mySubscription.unsubscribe();
-  }
+
 }

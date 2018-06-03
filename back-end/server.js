@@ -8,17 +8,17 @@ const express = require('express'),
     const app = express();
 
     mongoose.Promise = global.Promise;
-    mongoose.connect(config.DB).then(
-      () => {console.log('Database is connected') },
-      err => { console.log('Can not connect to the database'+ err)}
+    mongoose.connect(config.clientDB).then(
+      () => {console.log('Client Database is connected') },
+      err => { console.log('Can not connect to the client database'+ err)}
     );
-    const adUnitRoutes = require('./routes/addclient.route');
+    const adUnitRoutes = require('./routes/client.route');
 
     app.use(bodyParser.json());
     app.use(cors());
     const port = process.env.PORT || 4000;
 
-    app.use('/test', adUnitRoutes);
+    app.use('/DC', adUnitRoutes);
 
     const server = app.listen(port, function(){
      console.log('Listening on port ' + port);
