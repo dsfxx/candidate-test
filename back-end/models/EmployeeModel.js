@@ -1,18 +1,20 @@
-// AdUnit.js
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Define collection and schema for AdUnits
-let ClientModel = new Schema({
-  client_name: {
+// Define collection and schema for employee
+let EmployeeModel = new Schema({
+  employee_fname: {
     type: String
   },
-  client_detail: {
+  employee_lname: {
+    type: String
+  },
+  employee_phone: {
     type: String
   }
 },{
-    collection: 'client'
+    collection: 'employee'
 });
 
-module.exports = mongoose.model('ClientModel', ClientModel);
+module.exports = mongoose.model('EmployeeModel', EmployeeModel);

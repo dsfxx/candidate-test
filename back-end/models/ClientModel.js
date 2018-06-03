@@ -1,9 +1,7 @@
-// AdUnit.js
-
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-// Define collection and schema for AdUnits
+// Define collection and schema for CLient
 let ClientModel = new Schema({
   client_name: {
     type: String

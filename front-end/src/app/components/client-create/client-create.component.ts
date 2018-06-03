@@ -4,7 +4,7 @@ import { AddClientService } from '../../addclient.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-create',
+  selector: 'app-client-create',
   templateUrl: './client-create.component.html',
   styleUrls: ['./client-create.component.css']
 })

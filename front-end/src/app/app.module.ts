@@ -10,6 +10,10 @@ import { ClientIndexComponent } from './components/client-index/client-index.com
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
 import { AddClientService } from './addclient.service';
+import { EmployeeService } from './employee.service';
+import { EmployeeIndexComponent } from './components/employee-index/employee-index.component';
+import { EmployeeCreateComponent } from './components/employee-create/employee-create.component';
+import { EmployeeEditComponent } from './components/employee-edit/employee-edit.component';
 
 const routes: Routes = [
   {
@@ -23,7 +27,19 @@ const routes: Routes = [
   {
     path: 'client-index',
     component: ClientIndexComponent
-  }
+  },
+  {
+    path: 'employee-index',
+    component: EmployeeIndexComponent
+  },
+  {
+    path: 'employee-edit/:id',
+    component: EmployeeEditComponent
+  },
+  {
+    path: 'employee-create',
+    component: EmployeeCreateComponent
+  },
 ];
 
 @NgModule({
@@ -31,7 +47,10 @@ const routes: Routes = [
     AppComponent,
     ClientCreateComponent,
     ClientIndexComponent,
-    ClientEditComponent
+    ClientEditComponent,
+    EmployeeIndexComponent,
+    EmployeeCreateComponent,
+    EmployeeEditComponent
   ],
   imports: [
     BrowserModule,
@@ -40,7 +59,7 @@ const routes: Routes = [
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [AddClientService],
+  providers: [AddClientService, EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
