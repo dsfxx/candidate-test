@@ -1,4 +1,4 @@
-export interface Employee {
+export interface ListEmployee {
     id: Number;
     employee_fname: String;
     employee_lname: String;

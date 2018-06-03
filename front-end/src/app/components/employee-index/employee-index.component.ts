@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormGroup,  FormBuilder,  Validators } from '@angular/forms';
-import { ListEmployee } from './employee-index/Employee';
+import { ListEmployee } from './Employee';
 import { EmployeeService } from '../../employee.service';
 
 @Component({
@@ -11,16 +11,14 @@ import { EmployeeService } from '../../employee.service';
 })
 
 
-
 export class EmployeeIndexComponent implements OnInit {
+
+  listemployee: ListEmployee[];
+
 
   constructor( private employeeservice: EmployeeService,
                 private route: ActivatedRoute,
                 private router: Router) { }
-
-
-  listemployee: ListEmployee[];
-
 
 
   employeedelete(id, index) {
@@ -29,8 +27,6 @@ export class EmployeeIndexComponent implements OnInit {
            this.listemployee.splice(index, 1)
          });
   }
-
-
 
 
   ngOnInit() {

@@ -2,29 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868eeb5f-211d-4032-a915-eb14f4ab1d94" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/routes/employee.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/routes/employee.route.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-0--1573531717060717593.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-0--1573531717060717593.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-1--1573531717060717593.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-1--1573531717060717593.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-2--1573531717060717593.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-2--1573531717060717593.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000004" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/employee.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/employee.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +25,17 @@
       <file leaf-file-name="client-index.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+            <state relative-caret-position="238">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee-index.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -47,44 +43,17 @@
       <file leaf-file-name="addclient.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/addclient.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="11" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Employee.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client-index.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employee-index.component.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="employee-index.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -146,9 +115,9 @@
         <option value="$PROJECT_DIR$/back-end/routes/employee.route.js" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/employee.service.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.html" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts" />
       </list>
     </option>
   </component>
@@ -653,31 +622,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts">
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/addclient.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="11" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/Employee.ts">
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        <state relative-caret-position="238">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
