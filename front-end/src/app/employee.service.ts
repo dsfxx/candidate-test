@@ -27,4 +27,30 @@ export class EmployeeService {
                .http
                .get(`${this.uri}/getCompanyEmployee/${id}`);
         }
+
+  editEmployee(id) {
+      return this
+                .http
+                .get(`${this.uri}/employeeEdit/${id}`);
+      }
+
+  updateEmployee(employee_fname, employee_lname, employee_phone, employee_company, id) {
+       const obj = {
+         employee_fname: employee_fname,
+         employee_lname: employee_lname,
+         employee_phone: employee_phone,
+         employee_company: employee_company
+       };
+       this
+         .http
+         .post(`${this.uri}/employeeupdate/${id}`, obj)
+         .subscribe(res => console.log('Done'));
+     }
+
+
+  employeedelete(id) {
+        return this
+                  .http
+                  .get(`${this.uri}/employeedelete/${id}`);
+    }
 }

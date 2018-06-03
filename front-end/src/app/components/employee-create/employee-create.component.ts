@@ -12,8 +12,8 @@ import { AddClientService } from '../../addclient.service';
 })
 export class EmployeeCreateComponent implements OnInit {
   @ViewChild('myForm') public createEmployeeForm: NgForm;
-  angForm: FormGroup;
 
+  angForm: FormGroup;
   addclients: AddClient[];
 
  constructor(private employeeservice: EmployeeService,

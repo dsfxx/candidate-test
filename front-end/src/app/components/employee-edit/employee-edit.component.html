@@ -1,3 +1,43 @@
-<p>
-  employee-edit works!
-</p>
+<div class="card">
+  <div class="card-body">
+    <form [formGroup]="angForm"  novalidate>
+      <div class="form-group">
+        <label class="col-sm-4">Employee First name</label>
+        <input type="text" class="form-control" name="employee_fname" formControlName="employee_fname" #employee_fname [(ngModel)] = "getemployee.employee_fname" />
+      </div>
+      <div *ngIf="angForm.controls['employee_fname'].invalid && (angForm.controls['employee_fname'].dirty || angForm.controls['employee_fname'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['employee_fname'].errors.required">
+          First name is Required
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-4">Employee Last name</label>
+        <input type="text" class="form-control" name="employee_lname" formControlName="employee_lname" #employee_lname [(ngModel)] = "getemployee.employee_lname"/>
+      </div>
+      <div *ngIf="angForm.controls['employee_lname'].invalid && (angForm.controls['employee_lname'].dirty || angForm.controls['employee_lname'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['employee_lname'].errors.required">
+          Last name is Required
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-4">Employee Phone</label>
+        <input type="text" class="form-control" name="employee_phone" formControlName="employee_phone" #employee_phone [(ngModel)] = "getemployee.employee_phone"/>
+      </div>
+      <div *ngIf="angForm.controls['employee_phone'].invalid && (angForm.controls['employee_phone'].dirty || angForm.controls['employee_phone'].touched)" class="alert alert-danger">
+        <div *ngIf="angForm.controls['employee_phone'].errors.required">
+          Phone Number is required
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="col-sm-4">Employee Company</label>
+        <select class="col-sm-4" name="employee_company" formControlName="employee_company" #employee_company [(ngModel)] = "getemployee.employee_company">
+          <option *ngFor="let addclient of addclients" [value]="addclient._id">{{ addclient.client_name}}</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <button (click)="updateEmployee(employee_fname.value, employee_lname.value, employee_phone.value, employee_company.value, myForm)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Edit Employee</button>
+      </div>
+    </form>
+  </div>
+</div>

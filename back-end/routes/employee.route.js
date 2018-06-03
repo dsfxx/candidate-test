@@ -40,4 +40,42 @@ EmployeeRoutes.route('/getCompanyEmployee/:id').get(function (req, res) {
 });
 
 
+// Defined edit route
+EmployeeRoutes.route('/employeeEdit/:id').get(function (req, res) {
+  let id = req.params.id;
+  EmployeeModel.findById(id, function (err, result){
+      res.json(result);
+  });
+});
+
+//  Defined update route
+EmployeeRoutes.route('/employeeupdate/:id').post(function (req, res) {
+    EmployeeModel.findById(req.params.id, function(err, result) {
+    if (!result)
+      return next(new Error('Could not load Document'));
+    else {
+        result.employee_fname = req.body.employee_fname;
+        result.employee_lname = req.body.employee_lname;
+        result.employee_phone = req.body.employee_phone;
+        result.employee_company = req.body.employee_company;
+
+        result.save().then(result => {
+          res.json('Update complete');
+      })
+      .catch(err => {
+            res.status(400).send("unable to update the database");
+      });
+    }
+  });
+});
+
+// Defined delete | remove | destroy route
+EmployeeRoutes.route('/employeedelete/:id').get(function (req, res) {
+    EmployeeModel.findByIdAndRemove({_id: req.params.id}, function(err, client){
+        if(err) res.json(err);
+        else res.json('Successfully removed');
+    });
+});
+
+
 module.exports = EmployeeRoutes;

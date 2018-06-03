@@ -9,12 +9,12 @@
   </thead>
 
   <tbody>
-  <tr *ngFor="let coemployee of listemployee">
+  <tr *ngFor="let coemployee of listemployee; let i = index">
     <td>{{ coemployee.employee_fname }}</td>
     <td>{{ coemployee.employee_lname }}</td>
     <td>{{ coemployee.employee_phone }}</td>
-    <td><a [routerLink]="['/client-edit', coemployee._id]" class="btn btn-primary">Edit</a></td>
-    <td><button (click)="deleteAddClient(coemployee._id, i)"  class="btn btn-danger">Delete</button></td>
+    <td><a [routerLink]="['/employee-edit', coemployee._id]" class="btn btn-primary">Edit</a></td>
+    <td><button (click)="employeedelete(coemployee._id, i)"  class="btn btn-danger">Delete</button></td>
   </tr>
   </tbody>
 </table>

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormGroup,  FormBuilder,  Validators } from '@angular/forms';
-import { AddClient } from '../client-index/addclient';
+import { ListEmployee } from './employee-index/Employee';
 import { EmployeeService } from '../../employee.service';
 
 @Component({
@@ -9,6 +9,7 @@ import { EmployeeService } from '../../employee.service';
   templateUrl: './employee-index.component.html',
   styleUrls: ['./employee-index.component.css']
 })
+
 
 
 export class EmployeeIndexComponent implements OnInit {
@@ -22,14 +23,27 @@ export class EmployeeIndexComponent implements OnInit {
 
 
 
+  employeedelete(id, index) {
+         this.employeeservice.employeedelete(id).subscribe(res => {
+           console.log('Deleted')
+           this.listemployee.splice(index, 1)
+         });
+  }
+
+
+
+
   ngOnInit() {
-  this.route.params.subscribe(params => {
-  this.employeeservice
-          .getCompanyEmployee(params['id'])
-          .subscribe((data: ListEmployee[]) => {
-          this.listemployee = data;
-        });
-  });
+    this.route.params.subscribe(params => {
+    this.employeeservice
+            .getCompanyEmployee(params['id'])
+            .subscribe((data: ListEmployee[]) => {
+            this.listemployee = data;
+          });
+    });
+  }
+
+
 
 
 }
