@@ -12,6 +12,9 @@ let EmployeeModel = new Schema({
   },
   employee_phone: {
     type: String
+  },
+  employee_company: {
+    type: String
   }
 },{
     collection: 'employee'

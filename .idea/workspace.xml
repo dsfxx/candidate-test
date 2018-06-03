@@ -2,45 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="868eeb5f-211d-4032-a915-eb14f4ab1d94" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/config/DB.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/config/DB.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/models/ClientModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/models/ClientModel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/back-end/models/EmployeeModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/models/EmployeeModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/routes/employee.route.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/routes/employee.route.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back-end/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/back-end/server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-0--9037331700378329428.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-0-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-2-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-4-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/collection-6-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-02T21-30-50Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-02T22-06-01Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-02T23-47-03Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-03T00-04-13Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-03T01-11-29Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-03T04-42-20Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-03T04-52-09Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/diagnostic.data/metrics.2018-06-03T05-54-46Z-00000" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-1--9037331700378329428.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-1-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-3-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-5-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-7-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/index-8-630324354649629466.wt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000008" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000001" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/employee.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/employee.service.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,56 +29,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="employee-create.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="12" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client-index.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="employee.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/front-end/src/app/employee.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+            <state relative-caret-position="289">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="employee.route.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/routes/employee.route.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DB.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/config/DB.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/back-end/server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClientModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/back-end/models/ClientModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeModel.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmployeeModel.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/back-end/models/EmployeeModel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="255">
+              <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="employee-create.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="32" column="79" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="90" />
             </state>
           </provider>
         </entry>
@@ -146,14 +115,14 @@
         <option value="$PROJECT_DIR$/front-end/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" />
         <option value="$PROJECT_DIR$/front-end/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" />
-        <option value="$PROJECT_DIR$/back-end/models/EmployeeModel.js" />
-        <option value="$PROJECT_DIR$/front-end/src/app/employee.service.ts" />
         <option value="$PROJECT_DIR$/back-end/routes/employee.route.js" />
         <option value="$PROJECT_DIR$/back-end/config/DB.js" />
         <option value="$PROJECT_DIR$/back-end/server.js" />
+        <option value="$PROJECT_DIR$/back-end/models/EmployeeModel.js" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/employee.service.ts" />
       </list>
     </option>
   </component>
@@ -197,6 +166,41 @@
               <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
+              <item name="front-end" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="employee-create" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,7 +288,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1459" height="1040" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948025" />
@@ -473,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Qsync/candidate-test/back-end/routes/addclient.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -501,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -519,13 +508,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="6" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -557,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/addclient.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -571,31 +546,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/employee.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/routes/employee.route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/models/EmployeeModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/models/ClientModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -610,6 +564,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/models/ClientModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="74" selection-end-line="32" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/employee.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/models/EmployeeModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
         </state>
       </provider>
     </entry>

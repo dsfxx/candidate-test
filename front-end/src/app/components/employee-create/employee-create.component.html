@@ -29,8 +29,15 @@
         </div>
       </div>
       <div class="form-group">
-        <button (click)="addEmployee(employee_fname.value, employee_lname.value, employee_phone.value, myForm)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Create Employee</button>
+        <label class="col-sm-4">Employee Company</label>
+        <select class="col-sm-4" name="employee_company" formControlName="employee_company" #employee_company>
+          <option *ngFor="let addclient of addclients" [value]="addclient._id">{{ addclient.client_name}}</option>
+        </select>
       </div>
+
+      <div class="form-group">
+      <button (click)="addEmployee(employee_fname.value, employee_lname.value, employee_phone.value, employee_company.value, myForm)" [disabled]="angForm.pristine || angForm.invalid" class="btn btn-primary">Create Employee</button>
+    </div>
     </form>
   </div>
 </div>
