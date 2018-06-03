@@ -15,11 +15,17 @@ export class ClientIndexComponent implements OnInit {
   constructor(private addclientservice: AddClientService) { }
 
 
-  deleteAddClient(id) {
+
+  deleteAddClient(id, index) {
+
       this.addclientservice.deleteAddClient(id).subscribe(res => {
-        console.log('Deleted');
-      });
+        console.log('Deleted')
+        console.log(id)
+        this.addclients.splice(index, 1);
+
+    }
   }
+
 
   ngOnInit() {
     this.addclientservice
@@ -27,5 +33,10 @@ export class ClientIndexComponent implements OnInit {
       .subscribe((data: AddClient[]) => {
       this.addclients = data;
     });
+  }
+
+  ngOnDestroy() {
+  if (this.mySubscription)
+   this.mySubscription.unsubscribe();
   }
 }

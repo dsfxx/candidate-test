@@ -21,6 +21,7 @@ export class ClientEditComponent implements OnInit {
     private fb: FormBuilder) {
       this.createForm();
     }
+
     createForm() {
       this.angForm = this.fb.group({
              client_name: ['', Validators.required ],
