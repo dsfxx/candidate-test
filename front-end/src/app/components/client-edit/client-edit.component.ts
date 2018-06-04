@@ -32,7 +32,6 @@ export class ClientEditComponent implements OnInit {
       updateClient(client_name, client_detail) {
          this.route.params.subscribe(params => {
             this.clientservice.updateClient(client_name, client_detail, params['id']);
-            this.router.navigate(['client-index']);
          });
       }
 

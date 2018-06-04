@@ -10,6 +10,7 @@ export class EmployeeService {
 
   constructor(private http: HttpClient) { }
 
+  //adds new employee
   addEmployee(employee_fname, employee_lname, employee_phone, employee_company) {
       const obj = {
         employee_fname: employee_fname,
@@ -22,18 +23,21 @@ export class EmployeeService {
           .subscribe(res => console.log('Done'));
   }
 
+  //gets employees that belong to a specific company.  Uses company ID
   getCompanyEmployee(id) {
         return this
                .http
                .get(`${this.uri}/getCompanyEmployee/${id}`);
         }
 
+  //Gets an employee by id
   editEmployee(id) {
       return this
                 .http
                 .get(`${this.uri}/employeeEdit/${id}`);
       }
 
+  // updates an employee
   updateEmployee(employee_fname, employee_lname, employee_phone, employee_company, id) {
        const obj = {
          employee_fname: employee_fname,
@@ -47,7 +51,7 @@ export class EmployeeService {
          .subscribe(res => console.log('Done'));
      }
 
-
+  // delets an employee by id
   employeedelete(id) {
         return this
                   .http

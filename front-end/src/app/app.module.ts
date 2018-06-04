@@ -40,6 +40,10 @@ const routes: Routes = [
     path: 'employee-create',
     component: EmployeeCreateComponent
   },
+  {
+    path: '',
+    component: ClientIndexComponent
+  }
 ];
 
 @NgModule({

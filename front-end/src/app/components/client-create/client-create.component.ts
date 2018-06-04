@@ -27,6 +27,7 @@ export class ClientCreateComponent implements OnInit {
    });
   }
 
+  //Calls the addClient function in client.service.ts to make the request to the API
   addClient(client_name, client_detail) {
     this.clientservice.addClient(client_name, client_detail);
     this.createClientForm.reset();
