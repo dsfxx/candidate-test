@@ -3,7 +3,7 @@ import { FormGroup,  FormBuilder,  Validators, NgForm } from '@angular/forms';
 import { EmployeeService } from '../../employee.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { AddClient } from '../client-index/AddClient';
-import { AddClientService } from '../../addclient.service';
+import { ClientService } from '../../client.service';
 
 @Component({
   selector: 'app-employee-create',
@@ -17,7 +17,7 @@ export class EmployeeCreateComponent implements OnInit {
   addclients: AddClient[];
 
  constructor(private employeeservice: EmployeeService,
-              private addclientservice: AddClientService,
+              private clientservice: ClientService,
               private fb: FormBuilder,
               private router: Router) {
     this.createForm();
@@ -38,8 +38,8 @@ export class EmployeeCreateComponent implements OnInit {
     }
 
   ngOnInit() {
-    this.addclientservice
-        .getAddClients()
+    this.clientservice
+        .getClients()
         .subscribe((data: AddClient[]) => {
         this.addclients = data;
     });

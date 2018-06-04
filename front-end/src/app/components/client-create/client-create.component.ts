@@ -1,6 +1,6 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { FormGroup,  FormBuilder,  Validators, NgForm } from '@angular/forms';
-import { AddClientService } from '../../addclient.service';
+import { ClientService } from '../../client.service';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
@@ -14,7 +14,7 @@ export class ClientCreateComponent implements OnInit {
   @ViewChild('myForm') public createClientForm: NgForm;
   angForm: FormGroup;
 
-  constructor(private addclientservice: AddClientService,
+  constructor(private clientservice: ClientService,
               private fb: FormBuilder,
               private router: Router) {
     this.createForm();
@@ -28,7 +28,7 @@ export class ClientCreateComponent implements OnInit {
   }
 
   addClient(client_name, client_detail) {
-    this.addclientservice.addClient(client_name, client_detail);
+    this.clientservice.addClient(client_name, client_detail);
     this.createClientForm.reset();
   }
 

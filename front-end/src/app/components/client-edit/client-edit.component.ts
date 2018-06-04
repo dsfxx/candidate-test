@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormGroup,  FormBuilder,  Validators } from '@angular/forms';
 import { AddClient } from '../client-index/addclient';
-import { AddClientService } from '../../addclient.service';
+import { ClientService } from '../../client.service';
 
 @Component({
   selector: 'app-edit',
@@ -17,7 +17,7 @@ export class ClientEditComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
     private router: Router,
-    private addclientservice: AddClientService,
+    private clientservice: ClientService,
     private fb: FormBuilder) {
       this.createForm();
     }
@@ -29,9 +29,9 @@ export class ClientEditComponent implements OnInit {
          });
       }
 
-      updateAddClient(client_name, client_detail) {
+      updateClient(client_name, client_detail) {
          this.route.params.subscribe(params => {
-            this.addclientservice.updateAddClient(client_name, client_detail, params['id']);
+            this.clientservice.updateClient(client_name, client_detail, params['id']);
             this.router.navigate(['client-index']);
          });
       }
@@ -40,7 +40,7 @@ export class ClientEditComponent implements OnInit {
 
     ngOnInit() {
       this.route.params.subscribe(params => {
-        this.addclientservice.editAddClient(params['id']).subscribe(res => {
+        this.clientservice.editClient(params['id']).subscribe(res => {
           this.addclient = res;
       });
     });

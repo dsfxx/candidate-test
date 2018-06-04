@@ -9,7 +9,7 @@ import { ClientCreateComponent } from './components/client-create/client-create.
 import { ClientIndexComponent } from './components/client-index/client-index.component';
 import { ClientEditComponent } from './components/client-edit/client-edit.component';
 import { SlimLoadingBarModule } from 'ng2-slim-loading-bar';
-import { AddClientService } from './addclient.service';
+import { ClientService } from './client.service';
 import { EmployeeService } from './employee.service';
 import { EmployeeIndexComponent } from './components/employee-index/employee-index.component';
 import { EmployeeCreateComponent } from './components/employee-create/employee-create.component';
@@ -59,7 +59,7 @@ const routes: Routes = [
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [AddClientService, EmployeeService],
+  providers: [ClientService, EmployeeService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

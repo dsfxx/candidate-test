@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AddClient } from './AddClient';
-import { AddClientService } from '../../addclient.service';
+import { ClientService } from '../../client.service';
 
 @Component({
   selector: 'app-client-index',
@@ -12,12 +12,12 @@ export class ClientIndexComponent implements OnInit {
 
   addclients: AddClient[];
 
-  constructor(private addclientservice: AddClientService) { }
+  constructor(private clientservice: ClientService) { }
 
 
 
   deleteAddClient(id, index) {
-         this.addclientservice.deleteAddClient(id).subscribe(res => {
+         this.clientservice.deleteClient(id).subscribe(res => {
            console.log('Deleted')
            this.addclients.splice(index, 1)
          });
@@ -26,8 +26,8 @@ export class ClientIndexComponent implements OnInit {
 
 
   ngOnInit() {
-    this.addclientservice
-      .getAddClients()
+    this.clientservice
+      .getClients()
       .subscribe((data: AddClient[]) => {
       this.addclients = data;
     });
