@@ -6,16 +6,170 @@
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/WiredTiger.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-2-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-4-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/collection-6-7737793251221384956.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-3-7737793251221384956.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000005" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-5-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/index-7-7737793251221384956.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/journal/WiredTigerLog.0000000006" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/data/mongod.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/client.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/bower.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/WiredTiger" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/WiredTiger.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/WiredTiger.turtle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/WiredTiger.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/WiredTigerLAS.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/_mdb_catalog.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/collection-0--304469284373274669.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/collection-0--3764362012894319526.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/collection-0-6908147620445701913.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/collection-2--3764362012894319526.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T14-23-25Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T14-24-55Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T16-10-44Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T18-51-42Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T19-25-35Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/diagnostic.data/metrics.2018-06-02T20-36-07Z-00000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index-1--304469284373274669.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index-1--3764362012894319526.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index-1-6908147620445701913.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index-2-6908147620445701913.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/index-3--3764362012894319526.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/journal/WiredTigerLog.0000000006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/journal/WiredTigerPreplog.0000000001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/journal/WiredTigerPreplog.0000000002" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/mongod.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/sizeStorer.wt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/old/storage.bson" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,7 +179,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="client.service.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/front-end/src/app/client.service.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -43,6 +207,7 @@
       <find>AddClient</find>
       <find>ClientService</find>
       <find>addclient</find>
+      <find>get</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -58,23 +223,16 @@
         <option value="$PROJECT_DIR$/back-end/models/AdUnit.js" />
         <option value="$PROJECT_DIR$/back-end/routes/adunit.route.js" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/addclient.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html" />
         <option value="$PROJECT_DIR$/front-end/src/index.html" />
         <option value="$PROJECT_DIR$/front-end/angular.json" />
         <option value="$PROJECT_DIR$/front-end/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/back-end/models/AddClient.js" />
         <option value="$PROJECT_DIR$/back-end/routes/addclient.route.js" />
         <option value="$PROJECT_DIR$/back-end/models/ClientModel.js" />
-        <option value="$PROJECT_DIR$/front-end/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" />
         <option value="$PROJECT_DIR$/back-end/config/DB.js" />
         <option value="$PROJECT_DIR$/back-end/server.js" />
         <option value="$PROJECT_DIR$/back-end/models/EmployeeModel.js" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" />
         <option value="$PROJECT_DIR$/back-end/routes/client.route.js" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts" />
         <option value="$PROJECT_DIR$/back-end/routes/employee.route.js" />
         <option value="$PROJECT_DIR$/front-end/src/app/employee.service.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/employee-index/employee-index.component.html" />
@@ -84,9 +242,16 @@
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/client.service.ts" />
         <option value="$PROJECT_DIR$/front-end/src/app/addclient.service.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html" />
       </list>
     </option>
   </component>
@@ -117,13 +282,7 @@
               <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
               <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
@@ -150,15 +309,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="client-create" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
@@ -168,24 +318,6 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="client-edit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="client-index" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="candidate-test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="candidate-test" type="462c0819:PsiDirectoryNode" />
-              <item name="front-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="employee-create" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -461,27 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/config/DB.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -496,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="135" selection-start-line="5" selection-start-column="110" selection-end-line="5" selection-end-column="147" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/back-end/models/EmployeeModel.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -510,45 +614,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/routes/client.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="669">
-          <caret line="60" column="12" selection-start-line="58" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="78" selection-start-line="33" selection-start-column="78" selection-end-line="33" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/back-end/routes/employee.route.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="72" column="29" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/employee.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="669">
           <caret line="50" column="16" selection-start-line="50" selection-start-column="2" selection-end-line="50" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -580,20 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="6" selection-start-line="30" selection-start-column="6" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="635">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -608,13 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -624,15 +672,99 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="-28">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-index/client-index.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-create/client-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-create/employee-create.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/employee-edit/employee-edit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="6" lean-forward="true" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/routes/employee.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/routes/client.route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="60" column="12" selection-start-line="58" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front-end/src/app/components/client-edit/client-edit.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/back-end/config/DB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/front-end/src/app/client.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="697">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
         </state>
       </provider>
     </entry>

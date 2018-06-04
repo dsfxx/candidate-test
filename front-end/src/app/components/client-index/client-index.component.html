@@ -1,9 +1,11 @@
+
+<h2>All Clients</h2>
 <table class="table table-hover">
   <thead>
   <tr>
     <td>Add Client Name</td>
     <td>Add Client Details</td>
-    <td colspan="2">Actions</td>
+    <td colspan="3">Actions</td>
   </tr>
   </thead>
 
@@ -12,8 +14,8 @@
     <td>{{ addclient.client_name }}</td>
     <td>{{ addclient.client_detail }}</td>
     <td><a [routerLink]="['/employee-index', addclient._id]" class="btn btn-success">View Employees</a></td>
-    <td><a [routerLink]="['/client-edit', addclient._id]" class="btn btn-primary">Edit</a></td>
-    <td><button (click)="deleteAddClient(addclient._id, i)"  class="btn btn-danger">Delete</button></td>
+    <td><a [routerLink]="['/client-edit', addclient._id]" class="btn btn-primary">Edit Client</a></td>
+    <td><button (click)="deleteAddClient(addclient._id, i)"  class="btn btn-danger">Delete Client</button></td>
   </tr>
   </tbody>
 </table>

@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="form-group">
-        <button (click)="updateAddClient(client_name.value, client_detail.value)" [disabled]="angForm.invalid" class="btn btn-primary">Update Client</button>
+        <button type="button" (click)="updateClient(client_name.value, client_detail.value)" [disabled]="angForm.invalid" class="btn btn-primary">Update Client</button>
       </div>
     </form>
   </div>
