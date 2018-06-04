@@ -46,7 +46,7 @@ export class ClientService {
     this
       .http
       .post(`${this.uri}/clientupdate/${id}`, obj)
-      .subscribe(res => this.router.navigate(['client-index']););
+      .subscribe(res => this.router.navigate(['client-index']));
   }
 
   //deletes a client
